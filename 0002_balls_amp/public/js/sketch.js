@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-09 18:01:12
- * @LastEditTime: 2019-08-09 18:40:01
+ * @LastEditTime: 2019-08-09 19:01:59
  * @LastEditors: Please set LastEditors
  */
 let balls = []
@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-    background(150)
+    background(50)
 
     for (let i = 0; i < 300; i++) {
         balls[i].show()
