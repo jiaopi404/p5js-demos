@@ -26,10 +26,10 @@ Ball.prototype.show = function() {
 }
 
 Ball.prototype.update = function() {
-    if (this.x < 0 || this.x > displayWidth) {
+    if ((this.x - this.r) < 0 || (this.x - this.r) > displayWidth) {
         this.dx = this.dx * -1
     }
-    if (this.y < 0 || this.y > displayHeight) {
+    if ((this.y - this.r) < 0 || (this.y + this.r) > displayHeight) {
         this.dy = this.dy * -1
     }
     
